@@ -1,0 +1,20 @@
+--Create a clothing store database
+
+CREATE TABLE my_store (id INTEGER PRIMARY KEY, item TEXT, color TEXT, price INTEGER, quantity INTEGER, Size TEXT);
+
+INSERT INTO my_store VALUES (1, "Plain Crew Neck", "white",5.99, 130, "S,M,L,XL");
+INSERT INTO my_store VALUES (2, "Graphic Tee", "Black", 10.99, 100, "S,M,L,XL");
+INSERT INTO my_store VALUES (3, "Blouse", "Blue", 15.99, 30, "S,M,L,XL");
+INSERT INTO my_store VALUES (4, "Jeans", "Blue", 30.00, 75, "S,M,L,XL");
+INSERT INTO my_store VALUES (5, "Belts", "Black", 7.99, 50, "S,M,L,XL");
+INSERT INTO my_store VALUES (6, "Sweaters","Purple", 14.00, 4, "S,M,L,XL");
+INSERT INTO my_store VALUES (7, "Sweatpants", "Grey", 20.00, 26, "S,M,L,XL");
+INSERT INTO my_store VALUES (8, "Leggings", "Black", 15.00, 44, "S,M,L,XL");
+INSERT INTO my_store VALUES (9, "Skirts", "Black", 20.00, 33, "S,M,L,XL");
+INSERT INTO my_store VALUES (10, "Jackets", "Grey", 34.99, 2, "S,M,L,XL");
+INSERT INTO my_store VALUES (11, "Dresses", "Black", 26.99, 56, "S,M,L,XL");
+INSERT INTO my_store VALUES (12, "Crop Tops", "Orange", 10.00, 32, "S,M,L,Xl");
+INSERT INTO my_store VALUES (13, "Vests", "Black", 17.99, 3, "S,M,L,XL");
+INSERT INTO my_store VALUES (14, "Rompers", "Red", 22.99, 15, "S,M,L,XL");
+INSERT INTO my_store VALUES (15, "Jumpsuits", "Lilac", 30.99, 10, "S,M,L,XL"); 
+
